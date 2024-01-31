@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        grid-gap: 50px;
+        padding: 50px;
+
+    }
+
+    .card {
+        background-color: beige;
+        height: 70px;
+        width: 300px;
+        border: solid 1px black;
+        position: relative;
+    }
+    .tooltip{
+    position: absolute;
+    right: 0;
+    top: -15px;
+    height: 10px;
+   
+    padding: 5px;
+    background-color: beige;
+    }
+</style>
+
+<body>
+
+    <div class="wrapper">
+        <div class="card">
+            <span>Header 1</span>
+            <span class="tooltip">Tooltip 1</p>
+        </div>
+        <div class="card">
+            <span>Header 2</span>
+            <span class="tooltip">Tooltip 2</p>
+        </div>
+        <div class="card">
+            <span>Header 3</span>
+            <span class="tooltip">Tooltip 3</p>
+        </div>
+        <div class="card">
+            <span>Row 1</span>
+            <span class="tooltip">Tooltip 4</p>
+        </div>
+        <div class="card">
+            <span>Row 1</span>
+            <span class="tooltip">Tooltip 5</p>
+        </div>
+        <div class="card">
+            <span>Row 1</span>
+            <span class="tooltip">Tooltip 6</p>
+        </div>
+        <div class="card">
+            <span>Row 2</span>
+            <span class="tooltip">Tooltip 7</p>
+        </div>
+        <div class="card">
+            <span>Row 2</span>
+            <span class="tooltip">Tooltip 8</p>
+        </div>
+        <div class="card">
+            <span>Row 2</span>
+            <span class="tooltip">Tooltip 9</p>
+        </div>
+        <div class="card">
+            <span>Row 3</span>
+            <span class="tooltip">Tooltip 10</p>
+        </div><div class="card">
+            <span>Row 3</span>
+            <span class="tooltip">Tooltip 11</p>
+        </div><div class="card">
+            <span>Row 3</span>
+            <span class="tooltip">Tooltip 12</p>
+        </div>
+    </div>
+</body>
+
+</html>
